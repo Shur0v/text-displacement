@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    overflow: hidden;
+}
+.anime-text{
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 400;
+    text-align: justify;
+    webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.anime-header{
+    font-size: 8vw;
+    font-weight: 600;
+}
+.word{
+    position: relative;
+    margin-right: 0.75em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    will-change: transform;
+}
+.letter{
+    position: relative;
+    display: inline-block;
+    will-change: transform;
+}
